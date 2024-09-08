@@ -1,0 +1,36 @@
+.navbar{
+  width: 296px;
+  flex-shrink: 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.admin-now{
+  width: 40px;
+  height: 40px;
+}
+.py-12{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.py-32{
+  padding: 32px 0;
+}
+.ps-32{
+  padding-left: 32px;
+}
+.arrived{
+  border-left: 4px solid $success;
+}
+.nav-item:hover{
+  background-color: $gray-300;
+}
+.gray{
+  color: $gray-600;
+}

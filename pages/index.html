@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+  </head>
+  <body>
+    <div class="d-flex">
+      <%- include('./layout/navbar'); -%>
+      <main class="main container-fluid">
+        <header class="d-flex w-100 align-items-center justify-content-between mb-4">
+          <div class="d-flex align-items-center">
+            <h1 class="pe-5 fs-4 mb-0 fw-bold">Admin</h1>
+            <button type="button" class="btn fw-bold add-new-admin">
+              <span class="material-symbols-outlined align-bottom text-success pe-2"
+                >add</span
+              >Add New Admin
+            </button>
+          </div>
+          <div class="d-flex">
+            <a href=""><span class="material-symbols-outlined pe-3 search">search</span></a
+            ><a href=""
+              ><span class="material-symbols-outlined noti"
+                >notifications_active</span
+              ></a
+            >
+          </div>
+        </header>
+        <div class="content">
+          <div class="table-responsive">
+            <table class="table table-hover align-middle">
+              <thead>
+                <tr>
+                  <th scope="col" class="pb-0 ps-0">ID<span
+                    class="material-symbols-outlined text-success align-middle fs-6"
+                    >arrow_downward</span
+                  ></th>
+                  <th scope="col" class="pb-0">Name</th>
+                  <th scope="col" class="pb-0">Email</th>
+                  <th scope="col" class="pb-0">Verified</th>
+                  <th scope="col" class="pb-0"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" class="fw-normal ps-0 py-3">#1</th>
+                  <td>Emir Wicks</td>
+                  <td>emir.wicks@mail.com</td>
+                  <td>Yes</td>
+                  <td>
+                    <div class="d-flex justify-content-end">
+                      <button type="button" class="btn border-0 p-0 me-4">
+                        <span class="material-symbols-outlined align-middle"
+                          >visibility</span
+                        ></button
+                      ><button type="button" class="btn border-0 p-0">
+                        <span class="material-symbols-outlined align-middle">edit</span>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" class="fw-normal ps-0 py-3">#2</th>
+                  <td>Zaina Goldsmith</td>
+                  <td>zaina.goldsmith@mail.com</td>
+                  <td>Yes</td>
+                  <td>
+                    <div class="d-flex justify-content-end">
+                      <button type="button" class="btn border-0 p-0 me-4">
+                        <span class="material-symbols-outlined align-middle"
+                          >visibility</span
+                        ></button
+                      ><button type="button" class="btn border-0 p-0">
+                        <span class="material-symbols-outlined align-middle">edit</span>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" class="fw-normal ps-0 py-3">#3</th>
+                  <td>Mahima Lopez</td>
+                  <td>mahima.lopez@mail.com</td>
+                  <td>Yes</td>
+                  <td>
+                    <div class="d-flex justify-content-end">
+                      <button type="button" class="btn border-0 p-0 me-4">
+                        <span class="material-symbols-outlined align-middle"
+                          >visibility</span
+                        ></button
+                      ><button type="button" class="btn border-0 p-0">
+                        <span class="material-symbols-outlined align-middle">edit</span>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" class="fw-normal ps-0 py-3">#4</th>
+                  <td>Pharrell Murray</td>
+                  <td>pharrell.murray@mail.com</td>
+                  <td>Yes</td>
+                  <td>
+                    <div class="d-flex justify-content-end">
+                      <button type="button" class="btn border-0 p-0 me-4">
+                        <span class="material-symbols-outlined align-middle"
+                          >visibility</span
+                        ></button
+                      ><button type="button" class="btn border-0 p-0">
+                        <span class="material-symbols-outlined align-middle">edit</span>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" class="fw-normal ps-0 py-3">#5</th>
+                  <td>Annika Mcbride</td>
+                  <td>annika.mcbride@mail.com</td>
+                  <td>Yes</td>
+                  <td>
+                    <div class="d-flex justify-content-end">
+                      <button type="button" class="btn border-0 p-0 me-4">
+                        <span class="material-symbols-outlined align-middle"
+                          >visibility</span
+                        ></button
+                      ><button type="button" class="btn border-0 p-0">
+                        <span class="material-symbols-outlined align-middle">edit</span>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" class="fw-normal ps-0 py-3">#6</th>
+                  <td>Fatimah Clark</td>
+                  <td>fatimah.clark@mail.com</td>
+                  <td>Yes</td>
+                  <td>
+                    <div class="d-flex justify-content-end">
+                      <button type="button" class="btn border-0 p-0 me-4">
+                        <span class="material-symbols-outlined align-middle"
+                          >visibility</span
+                        ></button
+                      ><button type="button" class="btn border-0 p-0">
+                        <span class="material-symbols-outlined align-middle">edit</span>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" class="fw-normal ps-0 py-3">#7</th>
+                  <td>Klaudia Rhodes</td>
+                  <td>klaudia.rhodes@mail.com</td>
+                  <td>Yes</td>
+                  <td>
+                    <div class="d-flex justify-content-end">
+                      <button type="button" class="btn border-0 p-0 me-4">
+                        <span class="material-symbols-outlined align-middle"
+                          >visibility</span
+                        ></button
+                      ><button type="button" class="btn border-0 p-0">
+                        <span class="material-symbols-outlined align-middle">edit</span>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" class="fw-normal ps-0 py-3">#8</th>
+                  <td>Tillie Lucero</td>
+                  <td>tillie.lucero@mail.com</td>
+                  <td>Yes</td>
+                  <td>
+                    <div class="d-flex justify-content-end">
+                      <button type="button" class="btn border-0 p-0 me-4">
+                        <span class="material-symbols-outlined align-middle"
+                          >visibility</span
+                        ></button
+                      ><button type="button" class="btn border-0 p-0">
+                        <span class="material-symbols-outlined align-middle">edit</span>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" class="fw-normal ps-0 py-3">#9</th>
+                  <td>Sabrina Stephenson</td>
+                  <td>sabrina.stephenson@mail.com</td>
+                  <td>Yes</td>
+                  <td>
+                    <div class="d-flex justify-content-end">
+                      <button type="button" class="btn border-0 p-0 me-4">
+                        <span class="material-symbols-outlined align-middle"
+                          >visibility</span
+                        ></button
+                      ><button type="button" class="btn border-0 p-0">
+                        <span class="material-symbols-outlined align-middle">edit</span>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" class="fw-normal ps-0 py-3">#10</th>
+                  <td>Annie Smith</td>
+                  <td>annie.smith@mail.com</td>
+                  <td>Yes</td>
+                  <td>
+                    <div class="d-flex justify-content-end">
+                      <button type="button" class="btn border-0 p-0 me-4">
+                        <span class="material-symbols-outlined align-middle"
+                          >visibility</span
+                        ></button
+                      ><button type="button" class="btn border-0 p-0">
+                        <span class="material-symbols-outlined align-middle">edit</span>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <nav aria-label="Page navigation" class="Page">
+          <ul class="pagination justify-content-end border-success">
+            <li class="page-item border-success">
+              <a class="page-link border-success text-success px-6" href="#"><span class="material-symbols-outlined align-bottom "> chevron_left </span></a>
+            </li>
+            <li class="page-item active" aria-current="page"><a class="page-link border-success text-white bg-success" href="#">1</a></li>
+            <li class="page-item">
+              <a class="page-link border-success text-black" href="#">2</a>
+            </li>
+            <li class="page-item"><a class="page-link border-success text-black" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link border-success text-success px-6" href="#"><span class="material-symbols-outlined align-bottom "> chevron_right </span></a>
+            </li>
+          </ul>
+        </nav>
+      </main>
+      <script type="module" src="../main.js"></script>
+    </div>
+  </body>
+</html>
